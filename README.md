@@ -1,2 +1,54 @@
-# docker-iojs-imagemagick
-Docker io.js with optimised imagemagick image
+# io.js ImageMagick Docker Image
+
+This Docker Image contains an optimised version of ImageMagick build for basic
+image manipulations such as converting, resizing, rotating, etc. It support the
+following image types: `jpeg`, `giff`, `tiff`, and `png`.
+
+## Image Tags
+
+The following Docker Image tags are supported.
+
+| Tag       | io.js version | ImageMagick version |
+|-----------|---------------|---------------------|
+| `latest`  | latest        | latest              |
+| `1-6`     | 1.x           | 6.x                 |
+| `1.6-6.9` | 1.6.x         | 6.9.x               |
+|-----------|---------------|---------------------|
+
+## This is enabled
+
+```
+--enable-shared
+--with-quantum-depth=8
+--with-jpeg
+--with-jp2
+--with-openjp2
+--with-png
+--with-tiff
+```
+
+## This is disabled
+
+```
+--disable-static
+--without-magick-plus-plus
+--without-bzlib                       # disable BZLIB support
+--without-zlib                        # disable ZLIB support
+--without-dps                         # disable Display Postscript support
+--without-fftw                        # disable FFTW support
+--without-fpx                         # disable FlashPIX support
+--without-djvu                        # disable DjVu support
+--without-fontconfig                  # disable fontconfig support
+--without-freetype                    # disable Freetype support
+--without-jbig                        # disable JBIG support
+--without-lcms                        # disable lcms (v1.1X) support
+--without-lcms2                       # disable lcms (v2.X) support
+--without-lqr                         # disable Liquid Rescale support
+--without-lzma                        # disable LZMA support
+--without-openexr                     # disable OpenEXR support
+--without-pango                       # disable PANGO support
+--without-webp                        # disable TIFF support
+--without-x                           # don't use the X Window System
+--without-xml                         # disable XML support
+```
+
