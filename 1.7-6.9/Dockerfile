@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM iojs:1.6.4
+FROM iojs:1.7.1
 
 RUN gpg --keyserver pool.sks-keyservers.net --recv-keys 8277377A
 
@@ -72,4 +72,3 @@ RUN cd "ImageMagick-${MAGICK_VERSION}" \
   && ldconfig /usr/local/lib
 
 RUN apt-get -y autoclean && apt-get -y autoremove && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
