@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM iojs:1.7.1
+FROM iojs:1.8.1
 
 RUN gpg --keyserver pool.sks-keyservers.net --recv-keys 8277377A
 
