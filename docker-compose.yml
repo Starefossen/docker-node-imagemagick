@@ -1,3 +1,7 @@
 magic16:
   build: 1.8-6.9
   command: identify --version
+
+magic26:
+  build: 2.2-6.9
+  command: identify --version
