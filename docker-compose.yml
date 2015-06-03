@@ -1,6 +1,3 @@
-magick:
-  build: 1.6-6.9
-  working_dir: /usr/src/app/
-  volumes:
-    - .:/usr/src/app
-
+magic16:
+  build: 1.8-6.9
+  command: identify --version
