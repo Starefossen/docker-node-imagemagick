@@ -13,7 +13,9 @@ The following Docker Image tags are supported.
 | Tag       | io.js version | ImageMagick version |
 |-----------|---------------|---------------------|
 | `latest`  | latest        | latest              |
-| `1-6`     | 1.x           | 6.x                 |
+| `2-6`     | 2.x           | 6.x                 |
+| `2.2-6.9` | 2.2.x         | 6.9.x               |
+| `1-8`     | 1.x           | 6.x                 |
 | `1.8-6.9` | 1.8.x         | 6.9.x               |
 
 ## This is enabled
@@ -52,4 +54,3 @@ The following Docker Image tags are supported.
 --without-x                           # don't use the X Window System
 --without-xml                         # disable XML support
 ```
-
