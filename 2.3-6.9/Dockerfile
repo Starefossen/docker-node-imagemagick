@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM iojs:2.2.1
+FROM iojs:2.3.0
 
 RUN gpg --keyserver pool.sks-keyservers.net --recv-keys 8277377A
 
@@ -11,10 +11,10 @@ RUN apt-get update -y \
   && apt-get remove -y imagemagick
 
 RUN cd /tmp
-RUN curl -SLO "http://imagemagick.org/download/releases/ImageMagick-${MAGICK_VERSION}.tar.gz" \
-  && curl -SLO "http://imagemagick.org/download/releases/ImageMagick-${MAGICK_VERSION}.tar.gz.asc" \
-  && gpg --verify "ImageMagick-${MAGICK_VERSION}.tar.gz.asc" "ImageMagick-${MAGICK_VERSION}.tar.gz" \
-  && tar -xzf "ImageMagick-${MAGICK_VERSION}.tar.gz"
+RUN curl -SLO "http://imagemagick.org/download/releases/ImageMagick-${MAGICK_VERSION}.tar.xz" \
+  && curl -SLO "http://imagemagick.org/download/releases/ImageMagick-${MAGICK_VERSION}.tar.xz.asc" \
+  && gpg --verify "ImageMagick-${MAGICK_VERSION}.tar.xz.asc" "ImageMagick-${MAGICK_VERSION}.tar.xz" \
+  && tar xf "ImageMagick-${MAGICK_VERSION}.tar.xz"
 
 # http://www.imagemagick.org/script/advanced-unix-installation.php#configure
 RUN cd "ImageMagick-${MAGICK_VERSION}" \
