@@ -14,7 +14,7 @@ RUN cd /tmp
 RUN curl -SLO "http://imagemagick.org/download/releases/ImageMagick-${MAGICK_VERSION}.tar.xz" \
   && curl -SLO "http://imagemagick.org/download/releases/ImageMagick-${MAGICK_VERSION}.tar.xz.asc" \
   && gpg --verify "ImageMagick-${MAGICK_VERSION}.tar.xz.asc" "ImageMagick-${MAGICK_VERSION}.tar.xz" \
-  && tar xz "ImageMagick-${MAGICK_VERSION}.tar.xz"
+  && tar xf "ImageMagick-${MAGICK_VERSION}.tar.xz"
 
 # http://www.imagemagick.org/script/advanced-unix-installation.php#configure
 RUN cd "ImageMagick-${MAGICK_VERSION}" \
