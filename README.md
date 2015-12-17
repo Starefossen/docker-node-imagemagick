@@ -4,7 +4,7 @@ This Docker Image contains an optimised version of ImageMagick build for basic
 image manipulations such as converting, resizing, rotating, etc. It support the
 following image types: `jpeg`, `giff`, `tiff`, and `png`.
 
-[![Docker Hub](http://dockeri.co/image/starefossen/iojs-imagemagick "Docker Hub")](https://registry.hub.docker.com/u/starefossen/iojs-imagemagick/)
+[![Docker Hub](http://dockeri.co/image/starefossen/node-imagemagick "Docker Hub")](https://registry.hub.docker.com/u/starefossen/node-imagemagick/)
 
 ## Image Tags
 
