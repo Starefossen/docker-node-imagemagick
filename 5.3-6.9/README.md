@@ -1,4 +1,4 @@
-# Node.js ImageMagick Docker Image
+# io.js ImageMagick Docker Image
 
 This Docker Image contains an optimised version of ImageMagick build for basic
 image manipulations such as converting, resizing, rotating, etc. It support the
@@ -10,13 +10,13 @@ following image types: `jpeg`, `giff`, `tiff`, and `png`.
 
 The following Docker Image tags are supported.
 
-| Tag       | Node.js version | ImageMagick version |
-|-----------|-----------------|---------------------|
-| `latest`  | latest          | latest              |
-| `5-6`     | 5.x             | 6.x                 |
-| `5.3-6.9` | 5.3.x           | 6.9.x               |
-| `4-6`     | 4.x             | 6.x                 |
-| `4.2-6.9` | 4.2.x           | 6.9.x               |
+| Tag       | io.js version | ImageMagick version |
+|-----------|---------------|---------------------|
+| `latest`  | latest        | latest              |
+| `2-6`     | 2.x           | 6.x                 |
+| `2.5-6.9` | 2.5.x         | 6.9.x               |
+| `1-8`     | 1.x           | 6.x                 |
+| `1.8-6.9` | 1.8.x         | 6.9.x               |
 
 ## This is enabled
 

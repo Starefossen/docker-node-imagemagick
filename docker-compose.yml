@@ -1,3 +1,7 @@
 magic46:
     build: 4.2-6.9
     command: identify --version
+
+magic56:
+    build: 5.3-6.9
+    command: identify --version
