@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM node:5.3
+FROM node:5
 
 ENV MAGICK_URL "http://imagemagick.org/download/releases"
 ENV MAGICK_VERSION 6.9.1-10
