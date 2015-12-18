@@ -14,9 +14,7 @@ The following Docker Image tags are supported.
 |-----------|-----------------|---------------------|
 | `latest`  | latest          | latest              |
 | `5-6`     | 5.x             | 6.x                 |
-| `5.3-6.9` | 5.3.x           | 6.9.x               |
 | `4-6`     | 4.x             | 6.x                 |
-| `4.2-6.9` | 4.2.x           | 6.9.x               |
 
 ## This is enabled
 
